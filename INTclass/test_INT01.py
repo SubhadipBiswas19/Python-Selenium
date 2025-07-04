@@ -1,13 +1,13 @@
-# Opens https://rahulshettyacademy.com in Chrome browser.
-# Prints the title of the page in the console.
-# Navigates to https://www.wikipedia.org after 2 seconds.
-# Maximizes the browser window.
-# Prints the current URL of the page.
-# Goes back to https://rahulshettyacademy.com using browser navigation.
-# Takes a screenshot of loaded page and save it as rahul_homepage.png.
-# Closes the browser at the end of the script.
-#************************************************************************
-
+"""
+Opens https://rahulshettyacademy.com in Chrome browser.
+Prints the title of the page in the console.
+Navigates to https://www.wikipedia.org after 2 seconds.
+Maximizes the browser window.
+Prints the current URL of the page.
+Goes back to https://rahulshettyacademy.com using browser navigation.
+Takes a screenshot of loaded page and save it as rahul_homepage.png.
+Closes the browser at the end of the script.
+"""
 
 from selenium import webdriver
 import time
