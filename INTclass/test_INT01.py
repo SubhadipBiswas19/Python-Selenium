@@ -60,6 +60,5 @@ def run_test(browser_name):
 for browser in ["chrome", "firefox", "IE"]:
     run_test(browser)
 
-for browser in ["chrome", "firefox", "IE"]:
-    run_test(browser)
+
 
