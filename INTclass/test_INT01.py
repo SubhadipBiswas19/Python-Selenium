@@ -33,7 +33,6 @@ def run_test(browser_name):
         print("\n Unsupported browser")
         return
 
-
     try:
         driver.get(academy_url)
 
