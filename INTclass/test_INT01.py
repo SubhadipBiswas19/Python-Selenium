@@ -53,6 +53,9 @@ def run_test(browser_name):
         screenshot_name = f"rahul_homepage_{browser_name}.png"
         driver.save_screenshot(screenshot_name)
 
+    except Exception as error:
+        print(f"An error occurred during execution: {error}")
+
     finally:
         driver.quit()
 
